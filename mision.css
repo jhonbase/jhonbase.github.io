@@ -107,7 +107,7 @@ nav >a:hover {
 .mision{
     width: 500px;
     display: block;
-    margin: auto 500px 30px 100px;
+    margin: auto 50px 30px 0;
     position: static;
 }
 
@@ -176,7 +176,7 @@ footer{
 }
 
 
-/* parte finall */
+/* parte final */
 .caja{
     margin-top: -40px;
     background: black;
