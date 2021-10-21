@@ -1,0 +1,297 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.contenedor{
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.titulo{
+    color: #642a73;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+/* header */
+header{
+    width: 100%;
+    height: 600px;
+    background: #d9a7c7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fffcdccb, #d9a7c7bd), url(./imágenes/portada\ chocolate.png);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fffcdccb, #d9a7c7bd), url(./imágenes/portada\ chocolate.png); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+nav{
+    text-align: right;
+    padding: 30px 50px 0 0;
+}
+
+nav >a {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+nav >a:hover {
+    text-decoration: underline;
+}
+
+.textos-header{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.textos-header h1{
+    font-size: 50px;
+    color: white;
+}
+
+.textos-header h2{
+    font-size: 30px;
+    font-weight: 300;
+    color: white;
+}
+
+.ola{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Nuestro producto */
+
+.contenedor-sobre-nosotros{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.imagen-nuestro-producto{
+    width: 30%;
+    padding-right: 10px; 
+    height: 15%;   
+}
+
+.sobre-nosotros .contenido-texto{
+    width: 54%;
+}
+
+.contenido-texto h3{
+    margin-bottom: 15px;
+}
+
+.contenido-texto h3 span{
+    background: #4d0686;
+    color: white;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    box-shadow: 1px 2px 3px 0 rgba(0, 0, 0, .5);
+    margin-right: 5px;
+}
+
+.contenido-texto{
+    padding: 0px 0px 30px 15px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+/* menú */
+
+.menu{
+    background: rgb(243, 243, 243);
+}
+
+.galeria-port{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.imagen-port{
+    width: 24%;
+    margin: 0 -2px 0;
+    margin-bottom: 5px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+}
+
+.imagen-port > img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+
+
+.hover-galeria{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    transform: scale(0);
+    background: rgba(218, 195, 195, 0.527);
+    transition: transform .3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hover-galeria img{
+    width: 50px;
+}
+
+.hover-galeria p{
+    color: white;
+}
+
+.imagen-port:hover .hover-galeria{
+    transform: scale(1);
+}
+
+/* Quienes somos */
+
+.card{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.imagen-creador{
+    width: 30%; 
+    margin-bottom: 5px;
+    margin-right: -50px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5); 
+}
+
+.contenido-texto-card{
+    width: 54%;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5); 
+    background: rgba(191, 191, 194, 0.568);
+
+}
+
+/* Ubicación */
+
+.ubicacion{
+    background: rgb(243, 243, 243);;
+}
+
+
+.googlemaps{
+    display: block;
+    width: 600px;
+    height: 450px;
+    margin: 10px auto;
+}
+
+/* footer */
+
+footer{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    width: 100%;
+    background: rgb(44, 41, 41);
+    color: white;
+}
+
+.container-body{
+    max-width: 500px;
+    display: flex;
+    margin: auto;
+}
+
+.column1{
+    max-width: 300px;
+    margin: auto;
+    text-align: end;
+    margin-right: 10px;
+}
+
+.column1>h1{
+    font-size: 30px;
+}
+
+.column1>p{
+    font-size: 14px;
+    color: rgb(136, 135, 135);
+    margin-top: 20px;
+}
+
+.column2{
+    max-width: 300px;
+    margin: auto;
+    margin-left: 20px;
+}
+
+.column2>h1{
+    font-size: 30px;
+}
+
+.row{
+    margin-top: 20px;
+    display: flex;
+}
+
+.row>img{
+    width: 30px;
+    height: 20px;
+}
+
+.row>label{
+    margin-left: 15px;
+    color: rgb(136, 135, 135);;
+}
+
+
+/* parte final */
+.caja{
+    margin-top: -40px;
+    background: black;
+}
+
+.titulo-final{
+    text-align: center;
+    font-size: .813rem;
+    color: white;
+    margin-top: 40px;
+    padding-top: 2px;
+    padding-bottom: 5px;
+}
+
+.img-esp{
+    filter: drop-shadow(0 0 1px white);
+}
+
+
+
+
+
+
