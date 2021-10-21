@@ -92,7 +92,9 @@ nav >a:hover {
 .contenedor>h1{
     color: #642a73;
     font-size: 60px;
+    margin-top: -80px;
     margin-bottom: 15px;
+    position: absolute;
 }
 
 .contenedor>p{
@@ -105,8 +107,8 @@ nav >a:hover {
 .mision{
     width: 500px;
     display: block;
-    margin: auto 646px 30px 2px;
-    
+    margin: auto 500px 30px 100px;
+    position: static;
 }
 
 .d{
