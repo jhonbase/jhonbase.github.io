@@ -1,9 +1,3 @@
-/* https://www.w3schools.com/colors/colors_gradient.asp (para degradado)
-codigo de colores de la página
-#ffffcc
-#ffccff
- */
-
 *{
     margin: 0;
     padding: 0;
@@ -64,7 +58,6 @@ nav >a:hover {
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    filter: drop-shadow(0 0 1px black);
 }
 
 .textos-header h1{
@@ -84,144 +77,61 @@ nav >a:hover {
     width: 100%;
 }
 
-/* Nuestro producto */
+/* main */
 
-.contenedor-sobre-nosotros{
+.div-section{
+    margin: 30px;   
+    box-shadow: 0 0 4px blueviolet;
+    padding: 10px;
+    border-radius: 20px;
+    background: rgba(240, 218, 218, 0.514);
+}
+
+.ingredientes{
     display: flex;
-    justify-content: space-evenly;
 }
 
-.imagen-nuestro-producto{
-    width: 30%;
-    padding-right: 10px; 
-    height: 15%;   
+.parrafo{
+    text-align: left;
+    margin: -230px 0px 2px 380px;
+    max-width: 200px;
+    
 }
 
-.sobre-nosotros .contenido-texto{
-    width: 54%;
-}
-
-.contenido-texto h3{
-    margin-bottom: 15px;
-}
-
-.contenido-texto h3 span{
-    background: #4d0686;
-    color: white;
-    border-radius: 50%;
-    display: inline-block;
-    text-align: center;
-    width: 30px;
-    height: 30px;
-    padding: 5px;
-    box-shadow: 1px 2px 3px 0 rgba(0, 0, 0, .5);
-    margin-right: 5px;
-}
-
-.contenido-texto{
-    padding: 0px 0px 30px 15px;
-    font-weight: 300;
-    text-align: justify;
-}
-
-/* menú */
-
-.menu{
-    background: rgb(243, 243, 243);
-}
-
-.galeria-port{
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-}
-
-.imagen-port{
-    width: 24%;
-    margin: 0 -2px 0;
-    margin-bottom: 5px;
-    overflow: hidden;
+.div-section>img{
+    width: 250px;
+    margin-top: 0px;
     position: relative;
-    cursor: pointer;
-    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
-    background: linear-gradient(to bottom, #ccffff 0%, #ffffcc 100%);
-
 }
 
-.imagen-port > img{
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    display: block;
+.title{
+    color: #642a73;
+    font-size: 60px;
+    margin-bottom: 20px;
+    max-width: 300px;
 }
 
-
-.hover-galeria{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    transform: scale(0);
-    background: rgba(218, 195, 195, 0.527);
-    transition: transform .3s;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+.tabla{
+    margin: 20px 0 2px 380px;
+    padding-bottom: 10px;
 }
 
-.hover-galeria img{
-    width: 50px;
+.choco{
+    margin: auto;
+    box-shadow: 0 0 3px black;
+    padding: 10px 0 0 0;
+    margin-bottom: -20px;
+    margin-left: 10px;
+    padding-left: -10px;
+    border-radius: 40px;
+    background: white;
 }
 
-.hover-galeria a{
-    color: white;
-    text-decoration: none;
-    font-size: 20px;
-}
-
-
-.imagen-port:hover .hover-galeria{
-    transform: scale(1);
-}
-
-/* Quienes somos */
-
-.card{
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.imagen-creador{
-    width: 30%; 
-    margin-bottom: 5px;
-    margin-right: -20px;
-    overflow: hidden;
-    position: relative;
-    cursor: pointer;
-    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5); 
-    background: linear-gradient(to top right, #ffffcc 0%, #ffccff 100%);
-}
-
-.contenido-texto-card{
-    width: 54%;
-    height: 416px;
-    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5); 
-    background: linear-gradient(to top left, #ffffcc 0%, #ffccff 100%);
-}
-
-/* Ubicación */
-
-.ubicacion{
-    background: rgb(243, 243, 243);;
-}
-
-
-.googlemaps{
-    display: block;
-    width: 600px;
-    height: 450px;
-    margin: 10px auto;
+.prueba{
+    box-shadow: 0 0 5px black;
+    margin-top: -24px;
+    border-radius: 40px;
+    background: linear-gradient(to right, #ffffcc 0%, #ffccff 100%);
 }
 
 /* footer */
@@ -302,9 +212,3 @@ footer{
 .img-esp{
     filter: drop-shadow(0 0 1px white);
 }
-
-
-
-
-
-
