@@ -50,6 +50,12 @@ nav >a:hover {
     text-decoration: underline;
 }
 
+.logo{
+    width: 40px;
+    margin: 20px;
+    position: absolute;
+}
+
 .textos-header{
     display: flex;
     height: 430px;

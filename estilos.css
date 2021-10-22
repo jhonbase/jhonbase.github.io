@@ -43,7 +43,7 @@ header{
 
 nav{
     text-align: right;
-    padding: 30px 50px 0 0;
+    padding: 20px 50px 0 0;
 }
 
 nav >a {
@@ -54,6 +54,12 @@ nav >a {
 
 nav >a:hover {
     text-decoration: underline;
+}
+
+.logo{
+    width: 40px;
+    margin: 20px;
+    position: absolute;
 }
 
 .textos-header{
@@ -192,22 +198,31 @@ nav >a:hover {
     justify-content: space-evenly;
 }
 
+
+
 .imagen-creador{
-    width: 30%; 
-    margin-bottom: 5px;
-    margin-right: -20px;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    padding: 0 10px;
     overflow: hidden;
     position: relative;
     cursor: pointer;
     box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5); 
-    background: linear-gradient(to top right, #ffffcc 0%, #ffccff 100%);
+    background: white;
+}
+
+.contenido-main{
+    margin: 10px 20px 10px 0;
 }
 
 .contenido-texto-card{
-    width: 54%;
-    height: 416px;
+    width: 100%;
+    height: 180px;
     box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5); 
     background: linear-gradient(to top left, #ffffcc 0%, #ffccff 100%);
+    display: flex;
+
 }
 
 /* Ubicación */
@@ -274,7 +289,7 @@ footer{
 }
 
 .row>img{
-    width: 30px;
+    width: 34px;
     height: 20px;
 }
 
@@ -299,9 +314,7 @@ footer{
     padding-bottom: 5px;
 }
 
-.img-esp{
-    filter: drop-shadow(0 0 1px white);
-}
+
 
 
 
