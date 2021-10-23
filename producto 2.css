@@ -128,14 +128,16 @@ nav >a:hover {
     margin: auto;
     box-shadow: 0 0 3px black;
     padding: 10px 0 0 0;
-    margin-bottom: -20px;
+    margin-bottom: -25px;
     margin-left: 10px;
     padding-left: -10px;
-    border-radius: 40px;
+    border-radius: 50px;
     background: white;
+    width: 10px;
 }
 
 .prueba{
+    padding-bottom: 20px;
     box-shadow: 0 0 5px black;
     margin-top: -24px;
     border-radius: 40px;
